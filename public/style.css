@@ -1,0 +1,23 @@
+.text-primary:hover{
+    text-decoration: underline;
+}
+
+.card{
+    box-shadow: 10px 10px 8px;
+}
+
+.tampil{
+    animation: membesar 1.5s;
+}
+
+@keyframes membesar{
+    from {
+        opacity: 0;
+        transform: scale(.7);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
